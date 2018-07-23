@@ -8,6 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  showicon = false;
+
+  alert($event) {
+    $event.stoppropagation;
+    alert('tyes');
+  }
 }
 
 

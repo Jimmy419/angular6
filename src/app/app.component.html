@@ -3,6 +3,10 @@
     <strong>Warning!</strong> Better check yourself, you're not looking too good.
   </ngb-alert>
 </p>
+{{title}}
+<nga-button label="sssss" (click)="alert($event)">test</nga-button>
+<div (click)="isCollapsed = !isCollapsed">test collapse</div>
+<div [ngbCollapse]="isCollapsed">collapse content herere</div>
 <button class="a-btn-secondary a-btn-sm">
   <i class="a-icon appkit-icon-image-fill"></i>SMALL BUTTON</button>
 <button class="a-btn-secondary a-btn-md">
