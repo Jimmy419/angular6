@@ -1,23 +1,7 @@
-<p>
-  <ngb-alert [dismissible]="false">
-    <strong>Warning!</strong> Better check yourself, you're not looking too good.
-  </ngb-alert>
-</p>
-{{title}}
-<nga-button label="sssss" (click)="alert($event)">test</nga-button>
-<div (click)="isCollapsed = !isCollapsed">test collapse</div>
-<div [ngbCollapse]="isCollapsed">collapse content herere</div>
-<button class="a-btn-secondary a-btn-sm">
-  <i class="a-icon appkit-icon-image-fill"></i>SMALL BUTTON</button>
-<button class="a-btn-secondary a-btn-md">
-  <i class="a-icon appkit-icon-image-fill"></i>NORMAL BUTTON</button>
-<button class="a-btn-secondary a-btn-lg">
-  <i class="a-icon appkit-icon-image-fill"></i>LARGE BUTTON</button>
-<button class="a-btn-secondary a-btn-xl">
-  <i class="a-icon appkit-icon-image-fill"></i>LARGEST BUTTON</button>
-<div class="a-btn-group a-btngroup-error">
-  <button type="button" toggle-active="active" class="a-btn-secondary a-btn-error a-btn-lg">BUTTON GROUP</button>
-  <button type="button" toggle-active="active" class="a-btn-secondary a-btn-error a-btn-lg active">BUTTON GROUP</button>
-  <button type="button" toggle-active="active" class="a-btn-secondary a-btn-error a-btn-lg">BUTTON GROUP</button>
-  <button type="button" toggle-active="active" class="a-btn-secondary a-btn-error a-btn-lg">BUTTON GROUP</button>
-</div>
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+<app-messages></app-messages>
