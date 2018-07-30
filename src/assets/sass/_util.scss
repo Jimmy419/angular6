@@ -1,30 +1,30 @@
 html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
 }
 
 body {
-    min-height: 100%;
-    position: relative;
-    padding-bottom: 60px;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: auto;
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
 }
 
 * {
-    vertical-align: baseline;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    outline: 0;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 ul,
@@ -32,242 +32,242 @@ li,
 dl,
 dt,
 dd {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 h1 {
-    font-size: 45px;
-    font-weight: 500;
-    line-height: 73px;
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 73px;
 }
 
 h2 {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 45px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 45px;
 }
 
 h3 {
-    font-size: 22px;
-    font-weight: 500;
-    line-height: 36px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
 }
 
 h4 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 29px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
 }
 
 h5 {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 23px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
 }
 
 h6 {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 19px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
 }
 
 // Typography Emphasis and Styling
 .a-normal,
 .a-regular {
-    font-weight: $regular !important;
+  font-weight: $regular !important;
 }
 
 .a-bold {
-    font-weight: $bold !important;
+  font-weight: $bold !important;
 }
 
 .a-italic {
-    font-style: italic !important;
+  font-style: italic !important;
 }
 
 .a-font-normal {
-    font-style: normal !important;
+  font-style: normal !important;
 }
 
 .a-caps {
-    text-transform: uppercase !important;
+  text-transform: uppercase !important;
 }
 
 .a-nowrap {
-    white-space: nowrap !important;
+  white-space: nowrap !important;
 }
 
 .a-truncate {
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 .a-clearfix {
-    *zoom: 1;
+  *zoom: 1;
 }
 
 .a-clearfix:after,
 .a-clearfix:before {
-    display: table;
-    line-height: 0;
-    content: '';
+  display: table;
+  line-height: 0;
+  content: '';
 }
 
 .a-clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .a-cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .a-pull-left {
-    float: left !important;
+  float: left !important;
 }
 
 .a-pull-right {
-    float: right !important;
+  float: right !important;
 }
 
 .a-text-left {
-    text-align: left !important;
+  text-align: left !important;
 }
 
 .a-text-center {
-    text-align: center !important;
+  text-align: center !important;
 }
 
 .a-text-right {
-    text-align: right !important;
+  text-align: right !important;
 }
 
 .a-no-border {
-    border: 0 !important;
+  border: 0 !important;
 }
 
 .a-no-border-radius {
-    border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
 .a-no-padding {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .a-no-boxshadow {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .a-text-underline {
-    text-decoration: underline !important;
-    &:hover {
-        text-decoration: none !important;
-    }
+  text-decoration: underline !important;
+  &:hover {
+    text-decoration: none !important;
+  }
 }
 
 .a-width-auto {
-    width: auto !important;
+  width: auto !important;
 }
 
 .a-height-auto {
-    height: auto !important;
+  height: auto !important;
 }
 
 .a-margin-auto {
-    margin: auto !important;
+  margin: auto !important;
 }
 
 .a-static {
-    position: static !important;
+  position: static !important;
 }
 
 .a-overflow-x-auto {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 .a-d-flex {
-    display: flex !important;
-    .a-flex-auto {
-        flex: 0 0 auto;
-    }
-    .a-flex-stretch {
-        flex: 1 1 auto;
-    }
+  display: flex !important;
+  .a-flex-auto {
+    flex: 0 0 auto;
+  }
+  .a-flex-stretch {
+    flex: 1 1 auto;
+  }
 }
 
 .a-align-items-center {
-    align-items: center !important;
+  align-items: center !important;
 }
 
 .a-justify-content-center {
-    justify-content: center !important;
+  justify-content: center !important;
 }
 
 .a-flex-center {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .a-top-zero {
-    top: 0 !important;
+  top: 0 !important;
 }
 
 .a-margin-top-zero {
-    margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .a-min-width-unset {
-    min-width: unset !important;
+  min-width: unset !important;
 }
 
 .a-no-margin {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .a-font-12 {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .bg-infor {
+  background-color: #8052c4 !important;
+  border: #8052c4 !important;
+  &:focus,
+  &:hover {
     background-color: #8052c4 !important;
     border: #8052c4 !important;
-    &:focus,
-    &:hover {
-        background-color: #8052c4 !important;
-        border: #8052c4 !important;
-    }
+  }
 }
 
 .bg-warning {
-    background-color: #ffbf1f;
-    border: #ffbf1f !important;
+  background-color: #ffbf1f;
+  border: #ffbf1f !important;
 }
 
 .bg-error {
-    background-color: #c52a1a;
-    border: #c52a1a !important;
+  background-color: #c52a1a;
+  border: #c52a1a !important;
 }
 
 .bg-success {
-    background-color: $state-success-color;
-    border: $state-success-color !important;
+  background-color: $state-success-color;
+  border: $state-success-color !important;
 }
 
 .a-relative-pos {
-    position: relative;
+  position: relative;
 }
 
 .a-absolute-pos {
-    position: absolute;
-    &.a-top-50 {
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  position: absolute;
+  &.a-top-50 {
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .a-color-error {
-    color: $state-error-color !important;
+  color: $state-error-color !important;
 }

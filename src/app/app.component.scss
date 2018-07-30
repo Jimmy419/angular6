@@ -1,5 +1,14 @@
 /* AppComponent's private CSS styles */
 
+:host {
+  display: flex;
+  height: 100%;
+  .ui-view-content {
+    flex: 1 1 auto;
+    background-color: #fafafa;
+  }
+}
+
 h1 {
   font-size: 1.2em;
   color: #999;

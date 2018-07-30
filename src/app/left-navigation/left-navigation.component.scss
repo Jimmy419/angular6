@@ -1,0 +1,43 @@
+:host {
+  flex: 0 0 auto;
+}
+
+.side-bar {
+  width: 270px;
+  padding-left: 40px;
+  padding-right: 20px;
+  .user-block {
+    margin-top: 40px;
+    display: flex;
+    .logo-box {
+      flex: 1 1 auto;
+      .logo {
+        width: 40px;
+      }
+    }
+    .user-name {
+      flex: 0 0 auto;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      line-height: 32px;
+      color: #424242;
+      background-color: #ffc100;
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .appkit-title {
+    font-size: 18px;
+    line-height: 29px;
+    margin-top: 29px;
+    color: #333;
+  }
+  .appkit-version {
+    color: #9e9e9e;
+    font-size: 12px;
+  }
+  .appkit-subscribe {
+    margin-top: 20px;
+  }
+}
