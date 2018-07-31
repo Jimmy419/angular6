@@ -10,4 +10,52 @@
   <div class="appkit-subscribe">
     <button class="a-btn">appkit-subscribe 356</button>
   </div>
+  <!-- <div id="sidebar" ng-init="$ctrl.init()">
+    <div class="search-box">
+      <div class="search-block search-default-sm">
+        <div class="search-btn">
+          <i class="appkiticon appkit-icon-search-outline"></i>
+        </div>
+        <input type="text" class="input-default search-content pull-left" name="hcpSearch" placeholder="Search" ng-model="$ctrl.searchKey"></input>
+        <span class="delete-wrapper display-none">
+          <i class="icon-outline-circle-delete input-delete"></i>
+        </span>
+      </div>
+    </div>
+    <div class="side-content">
+      <div class="side-content">
+        <script type="text/ng-template" id="items_renderer.html">
+          <span ng-click="item.isShow = !item.isShow; $ctrl.goPage(item)" class="itemSpan" ng-class="{clickActive:$ctrl.$state.includes(item.uiSref)}">{{item.name}}
+            <svg width="8px" height="13px" viewBox="0 0 8 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              class="rightArrow" ng-show="{{item.subItems.length}} > 0">
+              <title>down carat</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Landing-page" transform="translate(-268.000000, -184.000000)" fill="#FFFFFF">
+                  <g id="Menu" transform="translate(0.000000, 60.000000)">
+                    <g id="No-expand" transform="translate(30.000000, 85.000000)">
+                      <g id="Group-11" transform="translate(0.000000, 37.000000)">
+                        <path d="M247.281363,5.1204486 C247.209197,5.04818436 247.100948,5 247.004752,5 C246.908531,5 246.800282,5.04818436 246.72814,5.1204486 L242.001498,9.85397769 L237.274856,5.1204486 C237.20269,5.04818436 237.094442,5 236.998245,5 C236.889996,5 236.793775,5.04818436 236.721634,5.1204486 L236.120276,5.72269159 C236.048111,5.79495583 236,5.90335219 236,5.99972091 C236,6.09608963 236.048111,6.20448599 236.120276,6.27675023 L241.724912,11.8895516 C241.797078,11.9618159 241.905326,12.0100002 242.001523,12.0100002 C242.097744,12.0100002 242.205993,11.9618159 242.278134,11.8895516 L247.88277,6.27675023 C247.954935,6.20448599 248.003046,6.09608963 248.003046,5.99972091 C248.003046,5.90335219 247.954935,5.79495583 247.88277,5.72269159 L247.281363,5.1204486 Z"
+                          id="down-carat" transform="translate(242.001523, 8.505000) rotate(-90.000000) translate(-242.001523, -8.505000) "></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </span>
+          <ul ng-show="$ctrl.checkItemShowing(item, item.isShow, $ctrl.searchKey)" class="menuSub">
+            <li ng-repeat="item in item.subItems" ng-include="'items_renderer.html'" ng-show="$ctrl.filterMenus(item, $ctrl.searchKey)"
+              class="menuSublist" ng-class="{activeSub: $ctrl.isActive(item)}"></li>
+          </ul>
+        </script>
+        <ul class="side-menu">
+          <li ng-repeat="item in $ctrl.appMenu" ng-include="'items_renderer.html'" ng-show="$ctrl.filterMenus(item, $ctrl.searchKey)"
+            class="menuList" ng-class="{activeMenu: item.isShow}">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div> -->
 </div>

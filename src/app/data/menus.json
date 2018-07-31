@@ -1,0 +1,396 @@
+[{
+    "name": "Welcome to Appkit design system",
+    "desc": "",
+    "pagePath": "dash.landing",
+    "uiSref": "dash.landing",
+    "hideItem": "y",
+    "subItems": []
+  },
+  {
+    "name": "Getting started",
+    "desc": "",
+    "pagePath": "dash.start",
+    "uiSref": "dash.start",
+    "subItems": []
+  },
+  {
+    "name": "Component status",
+    "desc": "",
+    "pagePath": "dash.pipeline",
+    "uiSref": "dash.pipeline",
+    "subItems": []
+  },
+  {
+    "name": "Style",
+    "desc": "",
+    "pagePath": "",
+    "uiSref": "dash.style",
+    "subItems": [{
+        "name": "UI colors",
+        "desc": "",
+        "pagePath": "dash.style.primaryAccentColors",
+        "subItems": []
+      },
+      {
+        "name": "Data visualization colors",
+        "desc": "",
+        "pagePath": "dash.style.visualizationcolors",
+        "subItems": []
+      },
+      {
+        "name": "Text colors",
+        "desc": "",
+        "pagePath": "dash.style.textColors",
+        "subItems": []
+      },
+      {
+        "name": "Typography",
+        "desc": "",
+        "pagePath": "dash.style.typography",
+        "subItems": []
+      },
+      {
+        "name": "Icons",
+        "desc": "",
+        "pagePath": "icon",
+        "subItems": []
+      },
+      {
+        "name": "Branding guidelines",
+        "desc": "",
+        "pagePath": "dash.style.branding",
+        "subItems": []
+      },
+      {
+        "name": "Responsive grid",
+        "desc": "",
+        "pagePath": "dash.style.grid",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "name": "Components",
+    "desc": "",
+    "pagePath": "",
+    "uiSref": "dash.components",
+    "subItems": [{
+        "name": "Accordions",
+        "desc": "",
+        "pagePath": "dash.components.accordions",
+        "subItems": []
+      },
+      {
+        "name": "Animations",
+        "desc": "",
+        "pagePath": "dash.components.animation",
+        "subItems": []
+      },
+      {
+        "name": "Activity & progress indication",
+        "desc": "",
+        "pagePath": "dash.components.activityProgressIndication",
+        "subItems": []
+      },
+      {
+        "name": "Badge",
+        "desc": "",
+        "pagePath": "badge",
+        "subItems": []
+      },
+      {
+        "name": "Breadcrumbs & pagination",
+        "desc": "",
+        "pagePath": "pagination",
+        "subItems": []
+      },
+      {
+        "name": "Buttons",
+        "desc": "",
+        "pagePath": "buttons",
+        "subItems": []
+      },
+      {
+        "name": "Carousel",
+        "desc": "",
+        "pagePath": "dash.components.carousel",
+        "subItems": []
+      },
+      {
+        "name": "Date picker",
+        "desc": "",
+        "pagePath": "dash.components.datePicker",
+        "subItems": []
+      },
+      {
+        "name": "Feeds & comments",
+        "desc": "",
+        "pagePath": "dash.components.feedsComments",
+        "subItems": []
+      },
+      {
+        "name": "Files & attachments",
+        "desc": "",
+        "pagePath": "dash.components.filesAttachments",
+        "subItems": []
+      },
+      {
+        "name": "Fields & field sets",
+        "desc": "",
+        "pagePath": "input",
+        "subItems": []
+      },
+      {
+        "name": "Filters",
+        "desc": "",
+        "pagePath": "dash.components.filters",
+        "subItems": []
+      },
+      {
+        "name": "Headers, footers & navigation",
+        "desc": "",
+        "pagePath": "dash.components.navigation",
+        "subItems": []
+      },
+      {
+        "name": "Lists",
+        "desc": "",
+        "pagePath": "dash.components.lists",
+        "subItems": []
+      },
+      {
+        "name": "Modals",
+        "desc": "",
+        "pagePath": "modal",
+        "subItems": []
+      },
+      {
+        "name": "Notifications",
+        "desc": "",
+        "pagePath": "dash.components.notifications",
+        "subItems": []
+      },
+      {
+        "name": "Panels & cards",
+        "desc": "",
+        "pagePath": "dash.components.panelsCards",
+        "subItems": []
+      },
+      {
+        "name": "Product tour",
+        "desc": "",
+        "pagePath": "dash.components.productTour",
+        "subItems": []
+      },
+      {
+        "name": "Ratings & reviews",
+        "desc": "",
+        "pagePath": "dash.components.ratings",
+        "subItems": []
+      },
+      {
+        "name": "Rich text editor",
+        "desc": "",
+        "pagePath": "dash.components.texteditor",
+        "subItems": []
+      },
+      {
+        "name": "Search & search history",
+        "desc": "",
+        "pagePath": "dash.components.searchSearchHistory",
+        "subItems": []
+      },
+      {
+        "name": "Selectors",
+        "desc": "",
+        "pagePath": "selector",
+        "subItems": []
+      },
+      {
+        "name": "Sliders",
+        "desc": "",
+        "pagePath": "dash.components.sliders",
+        "subItems": []
+      },
+      {
+        "name": "Tables",
+        "desc": "",
+        "pagePath": "dash.components.tables",
+        "subItems": []
+      },
+      {
+        "name": "Tabs",
+        "desc": "",
+        "pagePath": "dash.components.tabs",
+        "subItems": []
+      },
+      {
+        "name": "Tags",
+        "desc": "",
+        "pagePath": "dash.components.tags",
+        "subItems": []
+      },
+      {
+        "name": "Tooltips",
+        "desc": "",
+        "pagePath": "popover",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "name": "Data visualizations",
+    "desc": "",
+    "pagePath": "",
+    "uiSref": "dash.dataVisualization",
+    "subItems": [{
+        "name": "Bars",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.bars",
+        "subItems": []
+      },
+      {
+        "name": "Bubble",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.bubble",
+        "subItems": []
+      },
+      {
+        "name": "Line",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.line",
+        "subItems": []
+      },
+      {
+        "name": "Map",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.map",
+        "subItems": []
+      },
+      {
+        "name": "Pie / Doughnut",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.pieDoughnut",
+        "subItems": []
+      },
+      {
+        "name": "Radar",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.radar",
+        "subItems": []
+      },
+      {
+        "name": "Custom",
+        "desc": "",
+        "pagePath": "dash.dataVisualization.custom",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "name": "Patterns",
+    "desc": "",
+    "pagePath": "",
+    "uiSref": "dash.patterns",
+    "subItems": [{
+        "name": "Comments",
+        "desc": "",
+        "pagePath": "dash.patterns.comments",
+        "subItems": []
+      },
+      {
+        "name": "Reveal text",
+        "desc": "",
+        "pagePath": "dash.patterns.revealtext",
+        "subItems": []
+      },
+      {
+        "name": "Reveal text sample",
+        "desc": "",
+        "hideItem": "y",
+        "pagePath": "dash.patterns.revealtextSample",
+        "subItems": []
+      },
+      {
+        "name": "Progress tracker",
+        "desc": "",
+        "pagePath": "dash.patterns.progressTracker",
+        "subItems": []
+      },
+      {
+        "name": "Visualizations",
+        "desc": "",
+        "pagePath": "dash.patterns.visualizations",
+        "subItems": []
+      },
+      {
+        "name": "Legal pages",
+        "desc": "",
+        "pagePath": "dash.patterns.legalpages",
+        "subItems": []
+      },
+      {
+        "name": "In product help",
+        "desc": "",
+        "pagePath": "dash.patterns.inproducthelp",
+        "subItems": []
+      },
+      {
+        "name": "Login / Forget password",
+        "desc": "",
+        "pagePath": "dash.patterns.loginPassword",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "name": "Templates",
+    "desc": "",
+    "pagePath": "",
+    "uiSref": "dash.templates",
+    "subItems": [{
+      "name": "Left navigation",
+      "desc": "",
+      "pagePath": "dash.templates.sidebar",
+      "subItems": []
+    }]
+  },
+  {
+    "name": "Resources",
+    "desc": "",
+    "pagePath": "",
+    "uiSref": "dash.resources",
+    "subItems": [{
+        "name": "CSS utilities",
+        "desc": "",
+        "pagePath": "dash.resources.cssUtils",
+        "subItems": []
+      },
+      {
+        "name": "SASS variables",
+        "desc": "",
+        "pagePath": "dash.resources.sass",
+        "subItems": []
+      },
+      {
+        "name": "Release notes",
+        "desc": "",
+        "pagePath": "dash.resources.releases",
+        "subItems": []
+      },
+      {
+        "name": "Browser support",
+        "desc": "",
+        "pagePath": "dash.resources.browsersupport",
+        "subItems": []
+      }
+    ]
+  },
+  {
+    "name": "FAQ",
+    "desc": "",
+    "pagePath": "dash.faq",
+    "uiSref": "dash.faq",
+    "subItems": []
+  }
+]
